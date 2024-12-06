@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Weather App</title>
+  <link rel="stylesheet" href="weather.css">
+  <script defer src="weather.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>Weatherly</h1>
+      <input type="text" id="cityInput" placeholder="Enter city..." />
+      <button id="getWeather">Get Weather</button>
+    </header>
+    <main>
+      <div class="weather-card" id="weatherResult">
+        <!-- Weather data will be displayed here -->
+      </div>
+      <div class="alert-section">
+        <input type="number" id="tempThreshold" placeholder="Set Temp Alert (°C)" />
+        <button id="setAlert">Set Alert</button>
+        <p id="alertMessage"></p>
+      </div>
+    </main>
+    <footer>
+      <p>Powered by OpenWeather API</p>
+    </footer>
+  </div>
+</body>
+</html>
