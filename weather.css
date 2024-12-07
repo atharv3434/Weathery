@@ -1,0 +1,130 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #00bcd4, #3f51b5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  .app-container {
+    width: 70%; /* Take up 70% of the screen */
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1); /* Light background */
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+  }
+  
+  header {
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  header input {
+    padding: 12px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  header button {
+    padding: 12px 25px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  header button:hover {
+    background-color: #e68900;
+  }
+  
+  /* Weather Card */
+  .weather-card {
+    margin-top: 30px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .weather-card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .weather-card p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .weather-card .icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Alert Section */
+  .alert-section {
+    margin-top: 20px;
+  }
+  
+  .alert-section input {
+    padding: 12px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .alert-section button {
+    padding: 12px 25px;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .alert-section button:hover {
+    background-color: #e64a19;
+  }
+  
+  .alert-section p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
